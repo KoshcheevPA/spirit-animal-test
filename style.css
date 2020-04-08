@@ -1,6 +1,6 @@
 @keyframes beeMove {
   from {
-    transform: translateX(-800px);
+    transform: translateX(-1000px);
   }
 
   50% {
@@ -14,16 +14,25 @@
   } 
 
   99% {
-       transform: translateX(-800px) scale(-1,1);
+       transform: translateX(-1000px) scale(-1,1);
   } 
 	
   to {
-   transform: transformX(-800px) scale(-1,1);
+   transform: transformX(-1000px) scale(-1,1);
   }
 }
 
 .bee {
-	transform: translateX(-500px);
-
+	transform: translateX(-1000px);
 	animation: beeMove infinite 20s linear;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Arial';
+	background-color: yellow;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	padding: 10px;
 }
