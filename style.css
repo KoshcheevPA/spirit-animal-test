@@ -38,3 +38,7 @@
 	justify-content: center;
 	padding: 10px;
 }
+
+body {
+	overflow: hidden;
+}
