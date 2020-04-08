@@ -23,6 +23,7 @@
 }
 
 .bee {
+	overflow: hidden;
 	transform: translateX(-1000px);
 	animation: beeMove infinite 20s linear;
 }
