@@ -1,6 +1,6 @@
 @keyframes beeMove {
   from {
-    transform: translateX(-1000px);
+    transform: translateX(-800px);
   }
 
   50% {
