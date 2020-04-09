@@ -19,7 +19,7 @@
   }
 }
 
-.bee {	
+.animal {	
 	position: relative;
 	overflow: hidden;
 	transform: translateX(-1000px);
@@ -33,9 +33,32 @@
 	display: flex;
 	margin: 0 auto;
 	justify-content: center;
-	padding: 10px;
+        flex-direction: column;
+	padding: 15px;
+}
+
+.greetings {
+   margin-top: 0;
+   margin-bottom: 15px;
 }
 
 body {
 	overflow: hidden;
+}
+
+.btn {
+  background-color: transparent;
+  border: 3px solid black;
+  padding: 10px 15px;
+  font-family: 'Verdana';
+  font-size: 16px; 
+}
+
+.btn:hover {
+  background-color: rgba(0,0,0,0.1)
+}
+
+.btn:active {
+  background-color: rgba(0,0,0,0.2);
+  box-shadow: 0 0 2px black;
 }
