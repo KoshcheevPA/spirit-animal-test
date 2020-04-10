@@ -35,7 +35,6 @@
 	justify-content: center;
         flex-direction: column;
 	padding: 15px;
-	width: 100%;
 }
 
 .greetings {
@@ -44,15 +43,20 @@
 }
 
 body {
-	overflow: hidden;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
 }
 
 .btn {
+  display: flex;
+  align-items: center;
   background-color: transparent;
   border: 3px solid black;
-  padding: 10px 15px;
+  padding: 5px 10px;
   font-family: 'Verdana';
   font-size: 16px; 
+  margin: 0 4px;
 }
 
 .btn:hover {
@@ -62,4 +66,14 @@ body {
 .btn:active {
   background-color: rgba(0,0,0,0.2);
   box-shadow: 0 0 2px black;
+}
+
+.plus {
+  font-size: 20px;
+  font-weight: bold;	
+}
+
+.button-container {
+  display: flex; 
+  margin: 0 auto;
 }

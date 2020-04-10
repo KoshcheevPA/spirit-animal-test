@@ -1,8 +1,8 @@
 ﻿let images = document.querySelectorAll('.animal');
 let greetings = document.querySelector('.greetings'); 
 
-const pikaPath = 'pika.gif';
-const beePath = 'bee.gif';
+const pikaPath = './src/pika.gif';
+const beePath = './src/bee.gif';
 const greetPika = 'пика пика';
 const greetBee = 'бзззз';
 const complexGreet = 'бзз пика';
@@ -26,9 +26,9 @@ setButtonListener(beeButton, beePath, greetBee);
 pikaBeeButton.addEventListener('click', () => {
     images.forEach((item, index, arr) => {
       if((index + 1) < (arr.length / 2)) {
-         item.src = 'pika.gif';
+         item.src = pikaPath;
       } else {
-         item.src = 'bee.gif';
+         item.src = beePath;
       }
     })
     greetings.textContent = 'Доброго утречка! ' + complexGreet;
