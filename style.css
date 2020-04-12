@@ -56,7 +56,12 @@ body {
   padding: 5px 10px;
   font-family: 'Verdana';
   font-size: 16px; 
-  margin: 0 4px;
+  margin: 0 8px;
+}
+
+.btn-active {
+  box-shadow: 0 0 0 3px yellow,
+	      0 0 0 6px black;
 }
 
 .btn:hover {
@@ -77,3 +82,5 @@ body {
   display: flex; 
   margin: 0 auto;
 }
+
+
